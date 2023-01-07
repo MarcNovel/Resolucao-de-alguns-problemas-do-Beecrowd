@@ -1,0 +1,10 @@
+# problema 1017 - gasto de combustível
+
+tempo = int(input())
+velocidade = int(input())
+
+litros = tempo * velocidade / 12
+
+print(format(litros, "<.3f"))
+
+# fim de linha

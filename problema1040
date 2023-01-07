@@ -1,0 +1,29 @@
+# problema 1040 - média 3
+
+n1, n2, n3, n4 = map(float, input().split())
+
+media = (n1*2 + n2*3 + n3*4 + n4*1)/(2+3+4+1)
+
+if media >= 7:
+    print('Media:', format(media, "<.1f"))
+    print('Aluno aprovado.')
+elif media < 5:
+    print('Media:', format(media, "<.1f"))
+    print('Aluno reprovado.')
+elif media >=5 and media <= 6.9:
+    print('Media:', format(media, "<.1f"))
+    print('Aluno em exame.')
+
+    exame = float(input())
+
+    print('Nota do exame:', format(exame, "<.1f"))
+    
+    media_final = (media + exame)/2
+    if media_final >= 5:
+        print('Aluno aprovado.')
+        print('Media final:', format(media_final, "<.1f"))
+    else:
+        print('Aluno reprovado.')
+        print('Media final:', format(media_final, "<.1f"))
+        
+# fim de linha  

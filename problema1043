@@ -1,0 +1,12 @@
+# problema 1043 - Triângulo
+
+a, b, c = map(float, input().split())
+
+if (a+b) > c and (a+c) > b and (b+c) > a:
+    perimetro = a + b + c
+    print('Perimetro =', format(perimetro, "<.1f"))
+else:
+    area = (a + b) * c / 2
+    print('Area =', format(area, "<.1f"))
+
+# fim de linha

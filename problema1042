@@ -1,0 +1,22 @@
+# problema 1042 - sort simples
+
+A, B, C = map(int, input().split())
+
+maiorAB = (A + B + abs(A - B)) / 2
+maior = int((maiorAB + C + abs(maiorAB - C)) / 2)
+
+menorAB = (A + B - abs(A - B)) / 2
+menor = int((menorAB + C - abs(menorAB - C)) / 2)
+
+if A != maior and A != menor:
+    medio = A
+elif B != maior and B != menor:
+    medio = B
+else:
+    medio = C
+
+print(menor)
+print(medio)
+print(maior)
+
+# fim de linha

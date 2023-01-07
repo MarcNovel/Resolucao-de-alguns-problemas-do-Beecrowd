@@ -1,0 +1,29 @@
+# problema 1018 - Cédulas
+
+N = int(input())
+print(N)
+
+notacem = N//100
+N = N - notacem*100
+notacinquenta = N//50
+N = N - notacinquenta*50
+notavinte = N//20
+N = N - notavinte*20
+notadez = N//10
+N = N - notadez*10
+notacinco = N//5
+N = N - notacinco*5
+notadois = N//2
+N = N - notadois*2
+notaum = N//1
+N = N - notaum*1
+
+print('{} nota(s) de R$ 100,00'.format(notacem))
+print('{} nota(s) de R$ 50,00'.format(notacinquenta))
+print('{} nota(s) de R$ 20,00'.format(notavinte))
+print('{} nota(s) de R$ 10,00'.format(notadez))
+print('{} nota(s) de R$ 5,00'.format(notacinco))
+print('{} nota(s) de R$ 2,00'.format(notadois))
+print('{} nota(s) de R$ 1,00'.format(notaum))
+
+# fim de linha

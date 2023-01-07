@@ -1,0 +1,18 @@
+# problema 1038 - lanche
+
+c,q = map(int, input().split())
+
+if c==1:
+    total = 4.00 * q
+elif c==2:
+    total = 4.50 * q
+elif c==3:
+    total = 5.00 * q
+elif c==4:
+    total = 2.00 * q
+elif c==5:
+    total = 1.50 * q
+
+print('Total: R$',format(total, "<.2f"))
+
+# fim da linha

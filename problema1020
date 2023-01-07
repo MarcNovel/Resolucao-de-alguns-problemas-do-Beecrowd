@@ -1,0 +1,13 @@
+# Problema 1020 - Idade em dias
+
+entrada = int(input())
+
+a = entrada // 365
+m = (entrada - a * 365) // 30
+d = entrada - (a * 365) - (m * 30)
+
+print('{} ano(s)'.format(a))
+print('{} mes(es)'.format(m))
+print('{} dia(s)'.format(d))
+      
+# fim de linha
