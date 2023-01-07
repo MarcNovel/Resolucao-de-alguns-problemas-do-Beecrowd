@@ -1,0 +1,10 @@
+# problema 1006 - Média 2
+
+A = float(input())
+B = float(input())
+C = float(input())
+M = ((2 * A) + (3 * B) + (5 * C)) / 10
+
+print('MEDIA =',format(M, "<.1f"))
+
+# fim de linha
