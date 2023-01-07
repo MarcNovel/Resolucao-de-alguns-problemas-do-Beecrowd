@@ -1,0 +1,11 @@
+# problema 1008 - Salário
+
+numero = int(input())
+horas = int(input())
+valor = float(input())
+salario = horas * valor
+
+print('NUMBER =', numero)
+print('SALARY = U$', format(salario, "<.2f"))
+
+# fim de linha
