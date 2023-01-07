@@ -1,0 +1,10 @@
+# problema 1014 - consumo
+
+x = int(input())
+y = float(input())
+
+consumo = x / y
+
+print(format(consumo, "<.3f"),'km/l')
+
+# fim de linha

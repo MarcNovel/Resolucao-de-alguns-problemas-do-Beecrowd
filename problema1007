@@ -1,0 +1,9 @@
+# problema 1007 - Diferença
+
+[A, B, C, D] = [int(input()),int(input()),int(input()),int(input())]
+
+DIFERENCA = A * B - C * D
+
+print('DIFERENCA =', DIFERENCA)
+
+# fim de linha

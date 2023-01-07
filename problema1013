@@ -1,0 +1,10 @@
+# problema 1013 - O maior
+
+A,B,C = map(int, input().split())
+
+maiorAB = (A + B + abs(A - B)) / 2
+maior = int((maiorAB + C + abs(maiorAB - C)) / 2)
+
+print(maior,'eh o maior')
+
+# fim de linha
